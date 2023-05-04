@@ -1,0 +1,13 @@
+.text-Reader{
+    display: grid;
+    grid-template-rows: auto auto;
+    gap: 10px;
+}
+
+.text-Reader .tittle, .text-Reader .sub-tittle{
+    text-align: center;
+}
+.text-Reader .tittle{
+    font-weight: 600;
+
+}

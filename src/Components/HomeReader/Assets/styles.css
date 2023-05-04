@@ -1,0 +1,41 @@
+.contained-HomeReader{
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: auto auto 60px auto;
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    border-radius: 32px;
+    margin-right: 5px;
+}
+
+.contained-UserSearch-grids div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.contained-HomeReader-response{
+    margin-top: 5%;
+    height: 90%;
+    width: 90%;
+    display: grid;
+    grid-template-rows: 80% 20%;
+    background-color: white;
+    border-radius: 32px;
+    margin-right: 5px;
+}
+
+.button-copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button-copy Button{
+    width: 80%;
+    background-color:#D8DFE8 ;
+color: #0A3871;
+border-radius: 24px;
+height: 50px;
+}

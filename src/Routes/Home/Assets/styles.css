@@ -1,0 +1,9 @@
+.contained-home{
+    
+    width: 100%;
+    height: 1000px;
+    background-color: #F3F5FC;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    
+}

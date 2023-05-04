@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState,useEffect } from 'react'
 import UserSearch from '../SVGAlura/UserSearch/UserSearch'
 import MessageSeacrhReader from '../../Components/MessageSeacrhReader/MessageSeacrhReader'
 import CircularProgress from '@mui/joy/CircularProgress';
@@ -8,7 +8,39 @@ import Button from '@mui/material/Button';
 
 import "./Assets/styles.css"
 
-const HomeReader =()=> {
+const HomeReader =({dataEncrypt})=> {
+
+const valueEncrypt = dataEncrypt.length === 0 ?'test' : dataEncrypt.TextareaResult;
+  
+
+    
+
+const [responseEncrypt, setResponseEncrypt] = useState([])
+
+  useEffect(()=> {
+
+    const handleLoadDataEncrypt = async ()=>{
+      const encrypt = [["e","enter"],["i","imes"],["a","ai"],["o","ober"],["u","ufat"]];
+       let newValue = valueEncrypt.toLowerCase()
+   
+
+  for(let i = 0; i < encrypt.length; i++ ){
+    if(newValue.includes(encrypt[i][0])){
+      newValue = newValue.replaceAll(encrypt[i][0], encrypt[i][1])
+    }
+  }
+  setResponseEncrypt(newValue)
+
+  
+    }
+
+    handleLoadDataEncrypt()
+    
+                  });
+                
+                  console.log(responseEncrypt)
+
+
 
   if(true){
     return (
@@ -20,6 +52,7 @@ const HomeReader =()=> {
           :
           <div style={{display: 'flex',alignItems: 'center',justifyContent: 'center'}}>
             <CircularProgress/>
+            <p>{responseEncrypt}</p>
           </div>
           }
           <div/>

@@ -25,12 +25,12 @@ const HomeWriter =()=> {
             <div className='ButtonsAndLabel'>
               <div className='ButtonsAndLabel-child'>
               <div className='label-item'>
-              <div><IconAlert/></div>
-              <div><p>Solo letras minúsculas y sin acentos</p></div>
+                <div><IconAlert/></div>
+                <div className='label-element'><p>Solo letras minúsculas y sin acentos</p></div>
               </div>
               <div className='ButtonsGrids'>
-                <Button className='req' variant="contained">Encriptar</Button>
-                <Button className='res' variant="outlined">Desencriptar</Button>
+                <Button className='req' variant="contained"><p>Encriptar</p></Button>
+                <Button className='res' variant="outlined"><p>Desencriptar</p></Button>
               </div>
               </div>
             </div>

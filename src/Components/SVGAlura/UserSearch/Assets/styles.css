@@ -1,4 +1,19 @@
 .contained-UserSearch{
     width: 100%;
-   
+}
+@media screen and (max-width: 1300px) {
+    .contained-UserSearch svg{
+        width: 270px;
+    }
+}
+@media screen and (max-width: 1000px) {
+    .contained-UserSearch svg{
+        width: 200px !important;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .contained-UserSearch svg{
+        width: 280px !important;
+    }
 }

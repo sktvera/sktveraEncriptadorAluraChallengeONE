@@ -15,7 +15,7 @@ const HomeReader =()=> {
       <div className='contained-HomeReader'>
           <div/>
           <div className='contained-UserSearch-grids'><UserSearch/></div>
-          {true ? 
+          {false ? 
           <MessageSeacrhReader/> 
           :
           <div style={{display: 'flex',alignItems: 'center',justifyContent: 'center'}}>

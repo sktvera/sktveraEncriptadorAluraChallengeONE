@@ -7,7 +7,10 @@ const Home =()=> {
   return (
     <div className='contained-home'>
     <HomeWriter/>
+    <div className='HomeReader-media'>
     <HomeReader/>
+    </div>
+   
     </div>
   )
 }

@@ -47,3 +47,25 @@ color: #FFFFFF;
 background-color:#D8DFE8 ;
 color: #0A3871;
 }
+
+
+@media screen and (max-width: 750px) {
+    .contained-HomeWriter{
+        height:450px ;
+    }
+}
+
+
+@media screen and (max-width: 350px){
+    Button p{
+        font-size: 11px;
+    }
+    .ButtonsAndLabel .ButtonsAndLabel-child .label-item .label-element p{
+        font-size: 14px;
+        
+    }    
+    .ButtonsAndLabel .ButtonsAndLabel-child .label-item{
+        width: auto;
+        gap: 5px;
+    }
+}

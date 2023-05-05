@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/sktveraEncriptadorAluraChallengeONE/static/css/main.aa64c2e6.css",
-    "main.js": "/sktveraEncriptadorAluraChallengeONE/static/js/main.f27f36f9.js",
+    "main.css": "/sktveraEncriptadorAluraChallengeONE/static/css/main.7ec01b22.css",
+    "main.js": "/sktveraEncriptadorAluraChallengeONE/static/js/main.cb36519a.js",
     "static/js/787.60a12c21.chunk.js": "/sktveraEncriptadorAluraChallengeONE/static/js/787.60a12c21.chunk.js",
     "index.html": "/sktveraEncriptadorAluraChallengeONE/index.html",
-    "main.aa64c2e6.css.map": "/sktveraEncriptadorAluraChallengeONE/static/css/main.aa64c2e6.css.map",
-    "main.f27f36f9.js.map": "/sktveraEncriptadorAluraChallengeONE/static/js/main.f27f36f9.js.map",
+    "main.7ec01b22.css.map": "/sktveraEncriptadorAluraChallengeONE/static/css/main.7ec01b22.css.map",
+    "main.cb36519a.js.map": "/sktveraEncriptadorAluraChallengeONE/static/js/main.cb36519a.js.map",
     "787.60a12c21.chunk.js.map": "/sktveraEncriptadorAluraChallengeONE/static/js/787.60a12c21.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aa64c2e6.css",
-    "static/js/main.f27f36f9.js"
+    "static/css/main.7ec01b22.css",
+    "static/js/main.cb36519a.js"
   ]
 }

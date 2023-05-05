@@ -12,6 +12,12 @@
     display: flex;
     justify-content: center;
 }
+.TextareaWriter textarea{
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    color: #0A3871 !important;
+}
 .TextareaWriter div {
    width: 80%;
 }
@@ -51,11 +57,9 @@ color: #0A3871;
 
 @media screen and (max-width: 750px) {
     .contained-HomeWriter{
-        height:450px ;
+        height:550px ;
     }
 }
-
-
 @media screen and (max-width: 350px){
     Button p{
         font-size: 11px;

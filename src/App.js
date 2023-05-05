@@ -11,12 +11,12 @@ const App = () => {
   return (
 
       <div className='app'>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route exact path='/' element={<Home/>}/>
-          <Route path='/sktveraEncriptadorAluraChallengeONE' element={<Home />}/>
+          <Route path='/sktveraEncriptadorAluraChallengeONE' element={<Home/>}/>
         </Routes>
-        <Footer />
+        <Footer/>
       </div>
  
   )
